@@ -1,12 +1,19 @@
-body{
+body
+{
     background-color: black;
+    margin: 0px;
 }
-h1{
-    color: white;
+main
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-p{
-    color: lightgray;
-}
-h2{
-    color: lightblue;
+.earth
+{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
