@@ -16,4 +16,11 @@ main
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    transform: scale(0.5);
+    transition-duration: 1s;
+    transition-property: background-color;
+    transition-timing-function: ease;
+}
+.earth:hover{
+    transform: scale(1);
 }
