@@ -1,26 +1,23 @@
-body
-{
-    background-color: black;
-    margin: 0px;
+body {
+  background-color: black;
+  margin: 0px;
 }
-main
-{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.earth
-{
-    background-color: blue;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    transform: scale(0.5);
-    transition-duration: 1s;
-    transition-property: background-;
-    transition-timing-function: ease;
+.earth {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transform: scale(0.5);
+  transition-duration: 1s;
+  transition-property: background-;
+  transition-timing-function: ease;
 }
-.earth:hover{
-    transform: scale(1);
+.earth:hover {
+  transform: scale(1);
 }

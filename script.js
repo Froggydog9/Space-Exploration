@@ -6,4 +6,9 @@ let earthRotation = 0;
 cameraDistance += 5;
 cameraDistance -= 3;
 earthRotation += 0.01;
-earthRotation += 0.01; 
+earthRotation += 0.01;
+function moveCamera(amount) {
+  cameraDistance += amount;
+}
+moveCamera(3);
+moveCamera(5);
